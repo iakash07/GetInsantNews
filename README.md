@@ -1,8 +1,19 @@
-# React + Vite
+NewsPortal
+NewsPortal is a modern, responsive news website that aggregates the latest news from various sources, providing users with up-to-date information on diverse topics including politics, technology, sports, entertainment, and more.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Real-time News Updates: Fetches and displays the latest news articles from multiple sources.
+Category Filtering: Allows users to filter news articles by category such as politics, sports, technology, etc.
+User Authentication: Supports user registration and login for personalized experiences.
+Subscription Management: Users can subscribe to newsletters and get updates directly to their email.
+Responsive Design: Fully responsive design ensuring a seamless experience across all devices.
+Admin Dashboard: An admin panel to manage articles, categories, users, and subscriptions.
+Technology Stack
+Frontend: HTML, CSS, JavaScript, React
+Backend: Node.js, Express
+Database: MongoDB
+Authentication: JWT (JSON Web Tokens)
+APIs: News API for fetching news articles
+Deployment: Docker, Kubernetes
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Visit our website](http://54.147.9.18:8080/)
